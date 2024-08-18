@@ -75,7 +75,7 @@ public class Postagem {
 	}
 
 	public Tema getTema() {
-		return tema;
+		return this.tema;
 	}
 
 	public void setTema(Tema tema) {
@@ -83,7 +83,7 @@ public class Postagem {
 	}
 
 	public Usuario getUsuario() {
-		return usuario;
+		return this.usuario;
 	}
 
 	public void setUsuario(Usuario usuario) {
